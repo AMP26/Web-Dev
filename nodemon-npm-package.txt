@@ -1,0 +1,74 @@
+Nodemon
+
+nodemon automatically restarts a Node.js server when files change.
+
+Install:
+npm i  D nodemon
+
+Run:
+nodemon server.js
+   
+
+   
+package.json
+
+package.json  stores project details, scripts, and installed packages.
+
+Create it:
+npm init  y
+   
+
+Example:
+
+json id="q9t8lm"
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
+   
+
+   
+
+Dependencies
+
+Packages required to run the app.
+
+Install:
+
+npm install express
+   
+
+Stored in:
+
+json id="e0r4zn"
+"dependencies"
+   
+
+   
+
+Dev Dependencies
+
+Packages used only during development.
+
+Install:
+npm i  D nodemon
+   
+
+Stored in:
+json id="n5k2xa"
+"devDependencies"
+   
+
+npm install
+
+Installs all packages from  package.json .
+
+
+npm install
+   
+
+Creates:
+1. node_modules/ 
+2. package lock.json 
