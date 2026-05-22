@@ -7,7 +7,7 @@ server.use((req, res, next) => {
     next();
 });
 
-server.get('/', (req, res) => {
+server.get('/welcome', (req, res) => {
     res.send(`<h1>Welcome</h1> ${req.user}`);
 })
 
